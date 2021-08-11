@@ -141,9 +141,9 @@ When replying to or otherwise updating a Freshdesk ticket, there are a few thing
     | Open                   | OSG staff is responsible for next actions                                   |
     | Waiting on Customer    | Assignee needs the reporter to respond                                      |
     | Waiting on Third Party | Assignee needs a response from a CC                                         |
-    | Resolved               | Support is complete or the user is unresponsive. [See above](#triage-duty). |
+    | Resolved               | **DO NOT USE** Support is complete; also sends the reporter a survey        |
     | Open                   | Ticket has not yet been assigned (initial ticket state)                     |
-    | Closed                 | **DO NOT SET MANUALLY**. Terminal ticket state that is set by Freshdesk.    |
+    | Closed                 | Support is complete or the user is unresponsive. [See above](#triage-duty). |
 
 If actionable Technology Team tasks arise from a Freshdesk ticket, [JIRA](#jira) ticket(s) should be created to track
 that work.
